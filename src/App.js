@@ -8,6 +8,8 @@ import Detail from "./pages/Detail";
 import Favoris from "./pages/Favoris";
 import "bootstrap/dist/css/bootstrap.min.css";
 
+
+
 function App() {
   return (
     <Routes>
