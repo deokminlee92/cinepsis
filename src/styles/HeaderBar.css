@@ -1,0 +1,9 @@
+.navbar {
+  height: 100%;
+  background-color: white;
+  padding: 100px 0px;
+}
+
+.navbar-dark {
+  background-color: aqua;
+}

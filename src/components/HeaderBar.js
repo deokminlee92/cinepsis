@@ -1,49 +1,26 @@
+import React from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import React from "react";
-
 import "bootstrap/dist/css/bootstrap.min.css";
+import "../styles/HeaderBar.css";
 
-function HeaderBar() {
+export const NavBarElements = () => {
   return (
-    <h1>qsdomk</h1>
-    // <>
-    //   <Navbar bg="dark" variant="dark">
-    //     <Container>
-    //       <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-    //       <Nav className="me-auto">
-    //         <Nav.Link href="#home">Home</Nav.Link>
-    //         <Nav.Link href="#features">Features</Nav.Link>
-    //         <Nav.Link href="#pricing">Pricing</Nav.Link>
-    //       </Nav>
-    //     </Container>
-    //   </Navbar>
-    //   <br />
-    //   <Navbar bg="primary" variant="dark">
-    //     <Container>
-    //       <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-    //       <Nav className="me-auto">
-    //         <Nav.Link href="#home">Home</Nav.Link>
-    //         <Nav.Link href="#features">Features</Nav.Link>
-    //         <Nav.Link href="#pricing">Pricing</Nav.Link>
-    //       </Nav>
-    //     </Container>
-    //   </Navbar>
-
-    //   <br />
-    //   <Navbar bg="light" variant="light">
-    //     <Container>
-    //       <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-    //       <Nav className="me-auto">
-    //         <Nav.Link href="#home">Home</Nav.Link>
-    //         <Nav.Link href="#features">Features</Nav.Link>
-    //         <Nav.Link href="#pricing">Pricing</Nav.Link>
-    //       </Nav>
-    //     </Container>
-    //   </Navbar>
-    // </>
+    <Navbar id="navbar" collapseOnSelect expand="lg" bg="dark" variant="dark">
+      <Container>
+        <Navbar.Brand href="#home">로고들어갈자리</Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="me-auto"></Nav>
+          <Nav>
+            <Nav.Link href="#deets">Favoris</Nav.Link>
+            <Nav.Link eventKey={2} href="#memes">
+              Login
+            </Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   );
-}
-
-export default HeaderBar;
+};
