@@ -17,7 +17,8 @@
 
 ## 상세페이지 구현
 
-- https://movies.vitordino.com/
+- https://baeharam.github.io/Movie/
+- https://github.com/deokminlee92/Movie
   <br/>
   <br/>
 

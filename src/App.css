@@ -1,4 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;0,900;1,300;1,400;1,600;1,700;1,900&display=swap");
+/* // *************************NEW VERSION************************* //  */
+
+/* @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;0,900;1,300;1,400;1,600;1,700;1,900&display=swap");
 
 body {
   font-family: "Source Sans pro", sans-serif;
@@ -18,7 +20,7 @@ body {
 .grid {
   display: grid;
   margin-left: 0.5px;
-  /* 4개씩 */
+
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 0.2em;
   justify-content: center;
@@ -26,4 +28,4 @@ body {
 
 h2 {
   background-color: white;
-}
+} */

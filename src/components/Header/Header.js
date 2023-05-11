@@ -1,3 +1,39 @@
+import React from "react";
+import { Wrapper, device } from "../../styles/variables";
+import { Link } from "react-router-dom";
+import * as S from "./Header.style";
+
+const Header = () => {
+  return (
+    <>
+      <S.Header>
+        <Wrapper>
+          <S.Container>
+            <S.LogoLinkContainer>
+              <Link to="/">movie</Link>
+            </S.LogoLinkContainer>
+            <S.UL>
+              <S.LI>
+                <Link to="/around">Films</Link>
+              </S.LI>
+              <S.LI>
+                <Link to="/likes">Like</Link>
+              </S.LI>
+
+              <S.LI>
+                <Link to="/about">About</Link>
+              </S.LI>
+            </S.UL>
+          </S.Container>
+        </Wrapper>
+      </S.Header>
+    </>
+  );
+};
+
+export default Header;
+
+// *************************NEW VERSION************************* //
 // import React from "react";
 // import Container from "react-bootstrap/Container";
 // import Nav from "react-bootstrap/Nav";
